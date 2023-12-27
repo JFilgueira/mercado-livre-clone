@@ -1,0 +1,33 @@
+.payment-info__box {
+    display: flex;
+    width: 100%;
+    padding: 12px 10px 12px;
+    align-items: center;
+    border-right: 2px solid #eee;
+    margin-top: 0;
+    gap: 10px;
+}
+
+.icon-circle {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #eee;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+}
+
+.payment-info__info h3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.payment-info__info p {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--blue);
+    text-decoration: none;
+    cursor: pointer;
+}

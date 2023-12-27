@@ -1,0 +1,29 @@
+.product-list {
+    width: 700px;
+    padding: 12px 0 50px;
+    margin-top: 30px;
+}
+
+.product-list h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.product-list__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+@media (max-width: 450px) {
+    .product-list {
+        width: 150%;
+        padding: 12px 15px 50px;
+        margin: 30px 20px;
+    }
+
+    .product-list__container {
+        grid-template-columns: repeat(3, minmax(150px, 1fr));
+    }
+}

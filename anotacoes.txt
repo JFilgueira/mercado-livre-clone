@@ -1,0 +1,20 @@
+Limpar os arquivos
+Criar o Header
+	Criar os components do Header
+	usar sempre o reactIcons para os icones
+Definir estilos globais no index.css como .container={1100px}, .bgcolor={#eee}
+Quanto a requisição:
+	fazê-la em um arquivo js externo e importa-la
+	recebe o parametro de pesquisa para fazer o fetch desejado, convem definir valor padrão para a home.
+		useEffect(() => {fetchunction(test).then((res) => setProducts(res))}, [])
+
+Criar a section que vai conter todos os products e o ProductsCard que será os cards
+	passar props via destructioning
+		const {title, price, etc} = data;
+
+	usar regex para tratar o tamanho das imagens: procurar no vídeo: 32:26s
+	toLocalString() para tratar o currency dos produtos:
+		externalizar função numa pasta utils:
+			value.toLocalString('pt-br', {style: 'currency', currency: 'BRL'})
+
+	usar o grid na section products: 41:19

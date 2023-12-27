@@ -1,0 +1,36 @@
+.payment-info {
+    display: flex;
+    padding-top: 50px;
+}
+
+.payment-info__container {
+    background-color: white;
+    padding: 12px 10px 12px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.deco {
+    width: 7px;
+    background-color: var(--blue);
+}
+
+.icon-div {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .payment-info {
+        width: 700px;
+    }
+
+    .payment-info__container {
+        width: 90%;
+    }
+}
