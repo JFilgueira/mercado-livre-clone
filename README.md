@@ -9,7 +9,7 @@ I wanted to create something resembling an e-commerce in this project. Here, you
 * Search for any product
 * View your total
 * Responsive design
-* [Live preview on Vercel](https://pokedex-react-flax.vercel.app/)
+* [Live preview on Vercel](https://mercadolivreclone.vercel.app/)
 
 ![mercado-livre](https://github.com/JFilgueira/mercado-livre-clone/assets/103948600/bb5ec1d7-0649-4292-b292-ace78793ed6b)
 
