@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Mercado Livre clone with React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project's Scope
+I wanted to create something resembling an e-commerce in this project. Here, you can search for anything (since the API apparently has everything you can imagine), view all the products listed in cards, check their main information, add them to the cart, and view the cart itself with the total amount you're purchasing. All the state management was done using ContextAPI. Unfortunately, I wasn't able to create a single page for each product yet. Despite that, I hope you like it!
 
-## Available Scripts
+* Display main product information in cards
+* Add items to the cart
+* Delete items from the cart
+* Search for any product
+* View your total
+* Responsive design
+* [Live preview on Vercel](https://pokedex-react-flax.vercel.app/)
 
-In the project directory, you can run:
+![pokemon-react](https://github.com/JFilgueira/pokedex-react/assets/103948600/b2256f72-a70a-4024-bce9-fc8a7ed9b652)
+![pokemon-react-mobile](https://github.com/JFilgueira/pokedex-react/assets/103948600/ea6ce110-cb46-423d-a8bd-88d55471b95a)
+![pokemon-react-fav](https://github.com/JFilgueira/pokedex-react/assets/103948600/e81adcba-6b65-4391-a608-e8c0dcf23afb)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Running 
+```
+npm install
+npm start
+```
+# Build with
 
-### `npm test`
+## Tecnologies
+* ReactJs (ContextAPI, Hooks and Custom Hooks, React-router-dom)
+* HTML5 & CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools Used
+* Visual Studio Code
+* npm package manager
+* Git and Github
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Sources, Materials, Copyright
+* [Mercado Livre API](https://api.mercadolibre.com/sites/MLB/)
